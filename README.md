@@ -1,9 +1,9 @@
-#Google Glass Mirror API Ruby / Sinatra Template App
+# Google Glass Mirror API Ruby / Sinatra Template App
 
 Scaffold for creating Google Glass Mirror API apps in Ruby on Sinatra. 
 This was created while making Facebook for Glass - https://facebookglass.herokuapp.com and makes it simple to connect to Glass and one other service and to send items from Glass to that other service.
 
-##Getting Started
+## Getting Started
 
 This project relies on a local Postgres database. 
 Create a local database and head in to `config/database.yml` to configure the app for your database.
@@ -37,14 +37,14 @@ Open `helpers/yourservicehelper.rb` and implement the following methods:
 You should now have a very basic Glass application that will authorize with Glass & your service and can start implementing new features!
 
 
-##Learn More
+## Learn More
 
 The Mirror API developer reference is a great resource and has the answers to most questions
 https://developers.google.com/glass/v1/reference/
 
 Feel free to drop me an email (chris - at- applaunch.us) if you have questions or open a Git Issue.
 
-##License
+## License
 
 This project is released under the MIT license. Please feel free to use & extend it.
 
